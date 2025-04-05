@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Modules\{{Module}}\Commands;
+
+use Illuminate\Console\Command;
+
+class {{CommandName}} extends Command
+{
+    protected $signature = 'module:{{Module}}:{{commandName}}';
+    protected $description = 'A {{Module}} command: {{CommandName}}';
+
+    public function handle()
+    {
+        // Command implementation
+        $this->info('This is a custom command: {{CommandName}}.');
+    }
+}
